@@ -1,0 +1,72 @@
+/* Стили для ссылки "Перейти к основному содержанию" */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+}
+.skip-link:focus {
+    top: 0;
+    z-index: 1000;
+}
+
+/* Стили для навигации */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Стили для изображений в nav */
+nav img {
+    width: 10%;
+}
+
+/* Стили для класса grid (двухколоночная сетка) */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px;
+}
+
+/* Стили для изображений в grid */
+.grid img {
+    width: 100%;
+}
+
+/* Стили для класса flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.flex-item {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+/* Дополнительная настройка для grid */
+.grid {
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
